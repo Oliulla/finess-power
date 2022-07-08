@@ -154,3 +154,26 @@
     text-decoration: none;
     color: #fff;
 }
+
+.workout-container {
+    width: 650px;
+    height: 150px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.workout-btn button {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
