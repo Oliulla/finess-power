@@ -5,7 +5,7 @@
 
 .menu-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #000;
     padding: 15px;
     color: #fff;
@@ -13,12 +13,13 @@
 
 .menu-items {
     display: flex;
+    margin-right: 80px;
 }
 
 .menu-items li {
     list-style-type: none;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 18px;
 }
 
@@ -75,6 +76,11 @@
     cursor: pointer;
 }
 
+.banner-btn:hover{
+    background-color: #180ada;
+    color: #fff;
+}
+
 .section-two {
     margin-top: 25px;
 }
@@ -122,20 +128,43 @@
 .about-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+}
+.container {
     background-color: black;
+    margin-top: 40px;
+}
+
+.about-decription h1 {
+    font-size: 40px;
+    color: #C4CDCD;
+}
+
+.about-decription p {
+    color: #C4CDCD;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.about-decription ul li {
+    color: #C4CDCD;
+    line-height: 1.6;
+    font-size: 25px;
 }
 
 .about-left {
-    width: 700px;
-    /* border: 1px solid red; */
+    width: 600px;
+    border-top: 1px solid red;
+    margin-right: 30px;
+    margin-left: 60px;
 }
 
 .about-right {
-    width: 700px;
-    /* border: black; */
+    width: 600px;
+    border-top: 1px solid gray;
     color: #fff;
-    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
 }
 
 .workout-img {
@@ -146,8 +175,13 @@
     width: 350px;
     height: 550px;
     transform: skewY(-15deg);
-    transform: skewX(10deg);
+    transform: skewX(5deg);
+    padding-left: 10px;
 
+}
+
+.workout-img img:first-child{
+    padding-right: 30px;
 }
 
 .btn-txt {
@@ -176,4 +210,105 @@
     border: 0;
     cursor: pointer;
     font-size: 16px;
+    color: #000;
+}
+
+.workout-btn button:hover{
+    background-color: #180ada;
+    color: #fff;
+}
+
+.title3 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.workout-title h1 {
+    color: #fff;
+}
+
+.services-container {
+    margin: 80px 100px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-section:nth-child(2) {
+    margin: 0 35px;
+}
+
+.services-section {
+    box-shadow: 8px 6px 14px rgba(0, 0, 0, 0.6), 8px 6px 12px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.services-section img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.service-descrioption {
+    padding: 20px;
+}
+
+.description-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 40px 20px;
+}
+
+.service-descrioption h3{
+    color: #ff0000;
+}
+
+.description-btn a {
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.horizontal-rule {
+    margin: 100px 100px 60px;
+}
+
+.imoprtant-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-facebook a, .footer-youtube a {
+    color: #333;
+    padding: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-facebook a:hover, .footer-youtube a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-copy p{
+    font-size: 18px;
+    color: #333;
+}
+
+.footer-copy a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.footer-copy a:hover {
+    text-decoration: underline;
+}
+.footer {
+    margin-bottom: 100px;
 }
