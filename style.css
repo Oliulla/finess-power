@@ -146,6 +146,8 @@
     width: 350px;
     height: 550px;
     transform: skewY(-15deg);
+    transform: skewX(10deg);
+
 }
 
 .btn-txt {
